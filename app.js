@@ -1,6 +1,10 @@
 const express = require('express');
-const bodyparser = require('body-parser');
+const bodyParser = require('body-parser');
+
+const placesRoutes = require('./routes/places-routes')
 
 const app = express();
 
-app.listen(5000)
+app.use(placesRoutes);
+
+app.listen(5000);
