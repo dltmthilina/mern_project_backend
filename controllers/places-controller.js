@@ -7,30 +7,6 @@ const getCoordsForAddress = require('../util/location')
 const Place = require('../models/place')
 const User = require('../models/user')
 
-let DUMMY_PLACES = [
-    {
-        id:'p1',
-        title:'One GalleFace',
-        description: "Most popular shopping mall in srilanka",
-        location:{
-            lat:40.2547,
-            lng:-73.1245,
-        },
-        address: "Galleface, colombo, srilanka",
-        creator:"u1"
-    },
-    {
-        id:'p1',
-        title:'One GalleFace',
-        description: "Most popular shopping mall in srilanka",
-        location:{
-            lat:40.2547,
-            lng:-73.1245,
-        },
-        address: "Galleface, colombo, srilanka",
-        creator:"u1"
-    },
-]
 
 const getPlaceById = async (req, res, next)=>{
     const placeId = req.params.pid;
