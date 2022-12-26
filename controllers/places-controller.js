@@ -63,7 +63,7 @@ const createPlace = async (req, res, next)=>{
         description,
         address, 
         location: coordinates,
-        image: "https://www.google.lk/url?sa=i&url=https%3A%2F%2Fwww.onegalleface.com%2F&psig=AOvVaw2guB-LVMDu1SO-xrDTx3Ei&ust=1669643580595000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCNjLsZLBzvsCFQAAAAAdAAAAABAE",
+        image: "https://i.ytimg.com/vi/TZwTCSyRhD8/maxresdefault.jpg",
         creator,
     })
 
